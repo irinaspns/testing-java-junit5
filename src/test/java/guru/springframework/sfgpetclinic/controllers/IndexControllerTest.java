@@ -1,6 +1,7 @@
 package guru.springframework.sfgpetclinic.controllers;
 
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -34,7 +35,7 @@ class IndexControllerTest {
         });
     }
 
-//    @Disabled("Demo of timeout. Run in 1 thread. Duur is >= 5000. Sysout wordt getoond")
+    @Disabled("Demo of timeout. Run in 1 thread. Duur is >= 5000. Sysout wordt getoond")
     @Test
     void testTimeOut() {
 
@@ -45,7 +46,7 @@ class IndexControllerTest {
         });
     }
 
-//    @Disabled("Demo of timeout. Run in meerdere threads. Stopt net na 100 ms. Sysout wordt niet getoond.")
+    @Disabled("Demo of timeout. Run in meerdere threads. Stopt net na 100 ms. Sysout wordt niet getoond.")
     @Test
     void testTimeOutPrempt() {
 
